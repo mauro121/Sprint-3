@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    background-color: chocolate;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: chocolate;
+    position: relative;
+    min-width: 300px;
+    max-width: 1450px;
+}
+nav{
+    width: 90%;
+    padding: 30px;
+    font-family:'Inter',sans-serif;
+    color:#bcddd2;
+
+}
+ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.menu{
+    display: none;
+}
+header{
+    width: 60%;
+    padding: 30px;
+    margin-top: 90px;  
+}
+header h1{
+    font-size: 94px;
+    font-family: 'Nunito',sans-serif;
+    color: #fff;
+}
+header {
+    font: size 24px;
+    color:#bcddd2;
+    margin-top: 30px;
+}
+.cont-img{ 
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 450px;
+    margin-right: 100px;
+    background-size: contain;
+}
+.cont-btn{
+    display: flex;
+    margin-top: 20px;   
+}
+.cont-btn button{
+    width: 195px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 15px 30px;
+    border: 0px;
+    outline: none;
+    font-family: 'Nunito',sans-serif;
+    color:#fff;
+}
+
+
+.cont-btn .btn-two{
+    color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    margin-left: 5px;
+}
+* {
+    margin: 0 auto;
+    padding:0px;
+}
+
+#header {
+    margin: 0 auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav {
+    width: 800px; 
+    margin:0 auto; 
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color: orange;
+    border-radius: 10px;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 20px;
+    display:block;
+    max-width: 400px;
+}
+
+.nav li a:hover {
+    background-color:darkslategrey;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:14px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+
+.nav li ul li {
+    position:relative;
+    padding-right: 2px ;
+    margin-right: 15px;
+    padding: 15px 15px;
+}
+.nav li ul:hover > li {
+    display: block;
+}
+
+.nav li ul li ul {
+    right:-15px;
+    top:0px;
+}
+.nav li ul li ul li {
+    right:-25px;
+    top:0px; 
+}
+.btn-onee {
+  width: 195px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 15px 30px;
+    border: 0px;
+    outline: none;
+    font-family: 'Nunito',sans-serif;
+    color:#fff;
+    color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.btn-twoo {
+    width: 195px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: 0.5s;
+      cursor: pointer;
+      border-radius: 5px;
+      line-height: 20px;
+      padding: 15px 30px;
+      border: 0px;
+      outline: none;
+      font-family: 'Nunito',sans-serif;
+      color:#fff;
+      color: blanchedalmond;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: orange;
+      margin-left: 5px;
+      text-decoration: none;
+  }
+  * {
+    margin:0px;
+    padding:0px;
+}
+
+#header {
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.conta {
+    width: 800px; 
+    margin:0 auto; 
+    
+    
+}
+
+.conta > li {
+    float:left;
+}
+
+.conta li a {
+    background-color: orange;
+    border-radius: 10px;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 60px;
+    display:block;
+    max-width: 400px;
+}
+
+.conta li a:hover {
+    background-color:darkslategrey;
+}
+
+.conta li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.conta li:hover > ul {
+    display:block;
+}
+
+.conta li ul li {
+    position:relative;
+    padding-right: 20px ;
+    margin-right: 40px;
+    padding: 20px 20px;
+}
+
+.conta li ul li ul {
+    right:-200px;
+    top:0px;
+}
+.conta li ul li ul li {
+    right:-25px;
+    top:0px; 
+}
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#header {
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.dire {
+    width: 800px; 
+    margin:0 auto; 
+}
+
+.dire > li {
+    float:left;
+}
+
+.dire li a {
+    background-color: orange;
+    border-radius: 10px;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 60px;
+    display:block;
+    max-width: 200px;
+    max-width: 400px;
+}
+
+.dire li a:hover {
+    background-color:darkslategrey;
+}
+
+.dire li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.dire li:hover > ul {
+    display:block;
+}
+
+.dire li ul li {
+    position:relative;
+    padding-right: 20px ;
+    margin-right: 40px;
+    padding: 20px 20px;
+    max-width: 450px;
+}
+.dire li ul li ul{
+    position:relative;
+    padding-right: 20px ;
+    margin-right: 40px;
+    padding: 20px 20px;
+    max-width: 450px;
+}
+
+
